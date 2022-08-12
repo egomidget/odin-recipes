@@ -66,6 +66,25 @@ img{
     width: auto;
 }
 
+/* flex-box playing */
+.gallary-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallary-container .gallary-item {
+    flex: 1;
+    border: 2px solid #36332b;
+    height: 200px;
+    display: flex;
+}
+
+.gallary-item .gallary-pic {
+    flex: 1;
+    height: 100%;
+    width: auto;
+}
+
 
 
 
