@@ -67,6 +67,16 @@ img{
 }
 
 /* flex-box playing */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-item{
+    flex: 1 1 0;
+}
+
 .gallary-container {
     display: flex;
     justify-content: center;
@@ -74,13 +84,15 @@ img{
 
 .gallary-container .gallary-item {
     flex: 1;
+    justify-content: space-evenly;
     border: 2px solid #36332b;
     height: 200px;
+    width: fit-content;
     display: flex;
 }
 
 .gallary-item .gallary-pic {
-    flex: 1;
+    flex: 1 1 auto;
     height: 100%;
     width: auto;
 }
